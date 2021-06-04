@@ -1,0 +1,185 @@
+{
+  "$id": "1",
+  "$values": [
+    {
+      "$id": "2",
+      "isSkyOpened": true,
+      "heatTransferCoef": 1.0,
+      "temperatureShift": 0.0,
+      "lightCoef": 1.0,
+      "paths": {
+        "$id": "3",
+        "$values": [
+          {
+            "$id": "4",
+            "destination": {
+              "$id": "5",
+              "isSkyOpened": true,
+              "heatTransferCoef": 1.0,
+              "temperatureShift": 0.0,
+              "lightCoef": 1.0,
+              "paths": {
+                "$id": "6",
+                "$values": [
+                  {
+                    "$id": "7",
+                    "destination": {
+                      "$ref": "2"
+                    },
+                    "blocksView": false,
+                    "distance": 0,
+                    "heatTransferCoef": 1.0,
+                    "lightTransferCoef": 1.0
+                  },
+                  {
+                    "$id": "8",
+                    "destination": {
+                      "$id": "9",
+                      "isSkyOpened": true,
+                      "heatTransferCoef": 1.0,
+                      "temperatureShift": 0.0,
+                      "lightCoef": 1.0,
+                      "paths": {
+                        "$id": "10",
+                        "$values": [
+                          {
+                            "$id": "11",
+                            "destination": {
+                              "$ref": "5"
+                            },
+                            "blocksView": false,
+                            "distance": 0,
+                            "heatTransferCoef": 1.0,
+                            "lightTransferCoef": 1.0
+                          },
+                          {
+                            "$id": "12",
+                            "destination": {
+                              "$ref": "2"
+                            },
+                            "blocksView": false,
+                            "distance": 400,
+                            "heatTransferCoef": 1.0,
+                            "lightTransferCoef": 1.0
+                          },
+                          {
+                            "$id": "13",
+                            "destination": {
+                              "$id": "14",
+                              "isSkyOpened": true,
+                              "heatTransferCoef": 1.0,
+                              "temperatureShift": 0.0,
+                              "lightCoef": 1.0,
+                              "paths": {
+                                "$id": "15",
+                                "$values": [
+                                  {
+                                    "$id": "16",
+                                    "destination": {
+                                      "$ref": "2"
+                                    },
+                                    "blocksView": false,
+                                    "distance": 0,
+                                    "heatTransferCoef": 1.0,
+                                    "lightTransferCoef": 1.0
+                                  },
+                                  {
+                                    "$id": "17",
+                                    "destination": {
+                                      "$ref": "9"
+                                    },
+                                    "blocksView": false,
+                                    "distance": 0,
+                                    "heatTransferCoef": 1.0,
+                                    "lightTransferCoef": 1.0
+                                  },
+                                  {
+                                    "$id": "18",
+                                    "destination": {
+                                      "$id": "19",
+                                      "isSkyOpened": true,
+                                      "heatTransferCoef": 1.0,
+                                      "temperatureShift": 0.0,
+                                      "lightCoef": 1.0,
+                                      "paths": {
+                                        "$id": "20",
+                                        "$values": [
+                                          {
+                                            "$id": "21",
+                                            "destination": {
+                                              "$ref": "14"
+                                            },
+                                            "blocksView": false,
+                                            "distance": 100,
+                                            "heatTransferCoef": 1.0,
+                                            "lightTransferCoef": 1.0
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "blocksView": false,
+                                    "distance": 100,
+                                    "heatTransferCoef": 1.0,
+                                    "lightTransferCoef": 1.0
+                                  }
+                                ]
+                              }
+                            },
+                            "blocksView": false,
+                            "distance": 0,
+                            "heatTransferCoef": 1.0,
+                            "lightTransferCoef": 1.0
+                          }
+                        ]
+                      }
+                    },
+                    "blocksView": false,
+                    "distance": 0,
+                    "heatTransferCoef": 1.0,
+                    "lightTransferCoef": 1.0
+                  }
+                ]
+              }
+            },
+            "blocksView": false,
+            "distance": 0,
+            "heatTransferCoef": 1.0,
+            "lightTransferCoef": 1.0
+          },
+          {
+            "$id": "22",
+            "destination": {
+              "$ref": "14"
+            },
+            "blocksView": false,
+            "distance": 0,
+            "heatTransferCoef": 1.0,
+            "lightTransferCoef": 1.0
+          },
+          {
+            "$id": "23",
+            "destination": {
+              "$ref": "9"
+            },
+            "blocksView": false,
+            "distance": 400,
+            "heatTransferCoef": 1.0,
+            "lightTransferCoef": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "$ref": "5"
+    },
+    {
+      "$ref": "9"
+    },
+    {
+      "$ref": "14"
+    },
+    {
+      "$ref": "19"
+    }
+  ]
+}
